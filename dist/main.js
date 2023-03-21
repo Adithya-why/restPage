@@ -1,1 +1,1 @@
-console.log("Hello webpack");
+(()=>{"use strict";!function(){const e=document.querySelector("#content"),t=document.createElement("div");t.classList.add("hd");const n=document.createElement("h1");n.innerHTML="McDonald/'s",t.appendChild(n),e.appendChild(t);const c=document.createElement("div");c.classList.add("im");const d=document.createElement("img");d.setAttribute("src","./src/mclogo"),c.appendChild(d),e.appendChild(c);const s=document.createElement("div");s.classList.add("rv");const a=document.createElement("p");s.appendChild(a),e.appendChild(s)}()})();

@@ -1,3 +1,5 @@
+import myimg from './src/mclogo.jpg';
+
 const load = function(){
     const cdiv = document.querySelector("#content");
 
@@ -11,7 +13,7 @@ const load = function(){
     const imdiv = document.createElement('div');
     imdiv.classList.add('im');
     const imgs = document.createElement('img');
-    imgs.setAttribute('src','mclogo');
+    imgs.src = myimg;
     imdiv.appendChild(imgs);
     cdiv.appendChild(imdiv);
 
