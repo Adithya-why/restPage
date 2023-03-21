@@ -1,4 +1,4 @@
-import myimg from './src/mclogo.jpg';
+import myimg from './mclogo.jpg';
 
 const load = function(){
     const cdiv = document.querySelector("#content");
