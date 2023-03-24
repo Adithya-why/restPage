@@ -1,4 +1,4 @@
-import mcimgUrl from './mc.jpg';
+import mcimgUrl from './si.jpg';
 
 
 const loadPage = function(){
@@ -7,8 +7,22 @@ const loadPage = function(){
     const divhd = document.createElement('div');
     divhd.classList.add('hd');
     const txth1 = document.createElement('h1');
-    txth1.innerHTML = "McDonald/'s";
+    txth1.innerHTML = "Fancy South Indian Restaurant";
     divhd.appendChild(txth1);
+
+
+    const divls = document.createElement('ul');
+    const li1 = document.createElement('li');
+    const li2 = document.createElement('li');
+    const li3 = document.createElement('li');
+    li1.innerHTML = "Home";
+    li2.innerHTML ="Menu";
+    li3.innerHTML = "Contact";
+
+    divls.appendChild(li1);
+    divls.appendChild(li2);
+    divls.appendChild(li3);
+
 
 
     const divimg = document.createElement('div');
@@ -26,8 +40,10 @@ const loadPage = function(){
 
 
     divcont.appendChild(divhd);
+    divcont.append(divls);
     divcont.appendChild(divimg);
     divcont.appendChild(divrv);
+    
 }
 
 
