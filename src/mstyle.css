@@ -1,0 +1,11 @@
+@font-face {
+    font-family: mstyle;
+    src: url('./DeliciousHandrawn-Regular.ttf');
+}
+
+h1{
+    font-family: mstyle;
+    font-size: 3rem;
+    font-weight: 50;
+}
+
