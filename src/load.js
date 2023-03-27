@@ -1,4 +1,6 @@
 import mcimgUrl from './si.jpg';
+import css from './mstyle.css';
+
 
 
 const loadPage = function(){
