@@ -3,9 +3,37 @@
     src: url('./DeliciousHandrawn-Regular.ttf');
 }
 
+@font-face {
+    font-family: roboto;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+
+#container{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.5fr 0.3fr 4fr 3fr;
+}
+
+
 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: mstyle;
     font-size: 3rem;
     font-weight: 50;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
