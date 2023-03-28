@@ -15,6 +15,7 @@ const loadPage = function(){
 
     const divls = document.createElement('ul');
     const li1 = document.createElement('li');
+    li1.classList.add('home');
     const li2 = document.createElement('li');
     const li3 = document.createElement('li');
     li1.innerHTML = "Home";
@@ -51,6 +52,8 @@ const loadPage = function(){
     divcont.append(divls);
     divcont.appendChild(divimg);
     divcont.appendChild(divrv);
+    
+
     
 }
 
