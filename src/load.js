@@ -32,12 +32,18 @@ const loadPage = function(){
     const mcimg = document.createElement('img');
     mcimg.src = mcimgUrl;
     divimg.appendChild(mcimg);
+    const taglinediv = document.createElement('div');
+    taglinediv.classList.add('tg');
+    const tagline = document.createElement('p');
+    tagline.innerHTML = "Best food with even better names";
+    taglinediv.appendChild(tagline);
+    divimg.appendChild(taglinediv);
     
     
     const divrv = document.createElement('div');
     divrv.classList.add('rv');
     const ptx = document.createElement('p');
-    ptx.innerHTML = "The food is wonderful";
+    ptx.innerHTML = "Totally authentic and not bad at all<br><span>-Random Tourist</span>";
     divrv.appendChild(ptx);
 
 

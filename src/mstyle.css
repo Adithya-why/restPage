@@ -5,14 +5,24 @@
 
 @font-face {
     font-family: roboto;
-    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    src: url("./Roboto-Regular.ttf");
 }
 
+
+body{
+    margin: 0;
+    padding: 0;
+}
 #container{
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.5fr 0.3fr 4fr 3fr;
+    grid-template-rows: 0.3fr 0.3fr 4fr 1fr;
+}
+
+
+.hd{
+    background-color: #FEFCF3;
 }
 
 
@@ -32,8 +42,54 @@ ul{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    background-color: honeydew;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5EBE0;
+    font-family: roboto;
     
 }
+
+
+.ig img{
+    width: 100vw;
+    height: 80vh;
+}
+
+
+.ig{
+    overflow: hidden;
+}
+
+.tg{
+    position: absolute;
+    top: 30rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    opacity: 0.4;
+    font-family: mstyle;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.rv{
+    background-color: #F0DBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.rv span{
+    font-weight: 100;
+}
+
 
