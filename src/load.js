@@ -17,6 +17,7 @@ const loadPage = function(){
     const li1 = document.createElement('li');
     li1.classList.add('home');
     const li2 = document.createElement('li');
+    li2.classList.add('menu');
     const li3 = document.createElement('li');
     li1.innerHTML = "Home";
     li2.innerHTML ="Menu";

@@ -1,4 +1,5 @@
 import { loadPage } from "./load.js";
+import { loadMenu } from "./menu.js";
 
 loadPage();
 
@@ -23,6 +24,14 @@ function pageSwitching(){
         loadPage();
         pageSwitching();
     });
+
+
+    const mn = document.querySelector('.menu');
+    mn.addEventListener('click',function(){
+        erase();
+        loadMenu();
+        pageSwitching();
+    })
 
 }
 
