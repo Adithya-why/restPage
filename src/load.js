@@ -55,7 +55,12 @@ const loadPage = function(){
     
 
     
+
+    //Event listener function
+
+    
 }
+
 
 
 export { loadPage };
