@@ -1,3 +1,6 @@
+import idli from './idli.jpg';
+import menucss from './menustyle.css';
+
 const loadMenu = function(){
     const divcont = document.querySelector("#container");
 
@@ -27,8 +30,55 @@ const loadMenu = function(){
     divcont.appendChild(divls);
 
 
+    const subcont = document.createElement('div');
+    subcont.classList.add('scont');
 
+    const idlicont = document.createElement('div');
+    const idlipic = document.createElement('img');
+    idlipic.src = idli;
+    idlicont.appendChild(idlipic);
+    const idlidis = document.createElement('div');
+    const idlidisp = document.createElement('p');
+    idlidisp.innerHTML = "Fancy rice cakes";
+    idlidis.appendChild(idlidisp);
+    idlicont.appendChild(idlidis);
+
+
+    subcont.appendChild(idlicont);
+
+    const idlicont2 = document.createElement('div');
+    const idlipic2 = document.createElement('img');
+    idlipic2.src = idli;
+    idlicont2.appendChild(idlipic2);
+    const idlidis2 = document.createElement('div');
+    const idlidisp2 = document.createElement('p');
+    idlidisp2.innerHTML = "Fancy rice cakes";
+    idlidis2.appendChild(idlidisp2);
+    idlicont2.appendChild(idlidis2);
+
+
+    subcont.appendChild(idlicont2);
+
+
+    const idlicont3 = document.createElement('div');
+    const idlipic3 = document.createElement('img');
+    idlipic3.src = idli;
+    idlicont3.appendChild(idlipic3);
+    const idlidis3 = document.createElement('div');
+    const idlidisp3 = document.createElement('p');
+    idlidisp2.innerHTML = "Fancy rice cakes";
+    idlidis3.appendChild(idlidisp3);
+    idlicont3.appendChild(idlidis3);
+
+
+    subcont.appendChild(idlicont3);
     
+    divcont.appendChild(subcont);
+
+
+
+
+
 }
 
 
