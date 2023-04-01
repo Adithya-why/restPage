@@ -17,6 +17,7 @@ const loadMenu = function(){
     const li2 = document.createElement('li');
     li2.classList.add('menu');
     const li3 = document.createElement('li');
+    li3.classList.add('contact');
     li1.innerHTML = "Home";
     li2.innerHTML ="Menu";
     li3.innerHTML = "Contact";
@@ -66,14 +67,28 @@ const loadMenu = function(){
     idlicont3.appendChild(idlipic3);
     const idlidis3 = document.createElement('div');
     const idlidisp3 = document.createElement('p');
-    idlidisp2.innerHTML = "Fancy rice cakes";
+    idlidisp3.innerHTML = "Fancy rice cakes";
     idlidis3.appendChild(idlidisp3);
     idlicont3.appendChild(idlidis3);
 
 
     subcont.appendChild(idlicont3);
+
+    const idlicont4 = document.createElement('div');
+    const idlipic4 = document.createElement('img');
+    idlipic4.src = idli;
+    idlicont4.appendChild(idlipic4);
+    const idlidis4 = document.createElement('div');
+    const idlidisp4 = document.createElement('p');
+    idlidisp4.innerHTML = "Fancy rice cakes";
+    idlidis4.appendChild(idlidisp4);
+    idlicont4.appendChild(idlidis4);
+
+
+    subcont.appendChild(idlicont4);
     
     divcont.appendChild(subcont);
+    
 
 
 

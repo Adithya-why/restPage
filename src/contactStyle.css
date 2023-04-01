@@ -1,0 +1,11 @@
+.conta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conta p{
+    font-family: mstyle;
+    font-size: 2rem;
+    background-color: honeydew;
+}

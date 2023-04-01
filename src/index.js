@@ -1,5 +1,6 @@
 import { loadPage } from "./load.js";
 import { loadMenu } from "./menu.js";
+import { loadContact } from "./loadContact.js";
 
 loadPage();
 
@@ -31,7 +32,14 @@ function pageSwitching(){
         erase();
         loadMenu();
         pageSwitching();
-    })
+    });
+
+    const cnt = document.querySelector('.contact');
+    cnt.addEventListener('click',function(){
+        erase();
+        loadContact();
+        pageSwitching();
+    });
 
 }
 
